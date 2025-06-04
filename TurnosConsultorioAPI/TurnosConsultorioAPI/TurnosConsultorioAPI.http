@@ -1,0 +1,6 @@
+@TurnosConsultorioAPI_HostAddress = http://localhost:5054
+
+GET {{TurnosConsultorioAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
