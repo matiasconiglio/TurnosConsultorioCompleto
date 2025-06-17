@@ -22,6 +22,19 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/services/pacienteService.js",
+    "src/services/turnoService.js",
+    "src/app/components/Navbar.jsx",
+    "src/app/pacientes/editar/[id]/page.jsx",
+    "src/app/pacientes/crear/page.jsx",
+    "src/app/pacientes/page.jsx",
+    "src/app/layout.jsx",
+    "src/app/page.jsx"
+  ],
   "exclude": ["node_modules"]
 }
